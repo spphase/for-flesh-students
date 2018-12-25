@@ -1,0 +1,717 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: "weiruanyahei";
+}
+
+body {overflow-x: hidden;}
+
+a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: #AAA;
+
+}
+
+ul {
+	list-style: none;
+}
+
+/*属性绑定*/
+.center-block {
+	width: 100%;
+}
+.divide {
+	margin-top: 5%;	
+}
+
+.c {
+	display: flex;
+	justify-content: space-around;
+}
+.cc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blank-box {
+	height: 116px;
+	width: 100%;
+}
+/*=============*/
+
+#banner {
+	width: 100%;
+	background: url(../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 5%;
+	background-color: #e8472a;
+}
+
+#banner .container img {
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	margin: 2% 0 0 2%;
+	width: 197px;
+	height: 79px;
+	
+}
+
+.banner-cele {
+	height: 5%;
+}
+
+.title {
+	height: 15%;
+}
+
+.time {
+	height: 116px;
+}
+
+#ninth {
+	background: url(../images/ninth-bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#announce {
+	/*height: 100%;*/
+	overflow: hidden;
+}
+
+#moocBox {
+	height: 230px;
+	/*width: 100%;*/
+	padding-left: 25px;
+	padding-right:25px; 
+	padding-top: 10px;
+	overflow: hidden;    /*  超出的内容部分隐藏*/
+	background-color:#333333;
+}
+#mooc ul li {
+	height: 24px;
+}
+#mooc ul li a {
+	width: 180px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-indent: 15px;
+	height: 24px;
+	color: #fff;
+	font-size: 15px;
+}
+#moocBox span {
+	float: right;
+	color: #BBB;
+}
+
+#sight {
+	background: url(../images/sight-bg.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 5%;
+	background-attachment: fixed;
+}
+
+.review {
+	height: 230px;
+	background-color: #333333e0;
+}
+
+.story {
+	position: relative;
+	height: 230px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.story a {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	content: '';
+	background-color: #d95a3ea6;
+	-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;
+	opacity: 0;
+	color: #fff;
+}
+
+.story:hover .name {
+	height: 100%;
+	opacity: 1;
+}
+
+.full-pic {
+	width: 100%;
+	height: 100%;
+}
+
+.schoolmate {
+	display: flex;
+	align-items: center;
+	height: 230px;
+	background-color: #333333e0;
+}
+
+.show {
+	margin-top: 60px;
+	height: 418px;
+	width: 100%;
+	background-color: #f4f2f2;
+
+}
+
+.vedio-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vedio {
+	max-height: 530px;
+	height: 418px;
+	width: 48%;
+	background-color: #727272FF;
+	transform: scale(1.2);
+}
+
+#news {
+	width: 100%;
+	background-color: #fbf8f6;
+	margin-top: 50px;
+}
+
+.content {
+	margin-top: 27px;
+}
+
+.content a{
+	color: #000;
+	font-size: 24px;
+}
+
+.content a:hover {
+	color: #a39999;
+}
+
+.content img {
+	width: 100%;
+}
+
+.mapping {
+	width: 525px;
+	height: 560px;
+	margin-top: 70px;
+	background: url(../images/wishes-bg.png) no-repeat center center;
+	background-size: cover;
+}
+
+#views .title{
+	margin-top: 70px;
+	height: 185px;
+	width: 323px;
+	background: url(../images/wishes.png) no-repeat center center;
+	background-size: cover;
+}
+
+#views .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#views .content {
+	background-color: #fbf8f6;
+	border-radius: 10px;
+}
+
+#dream100 {
+	background-color: #333333;
+}
+
+.plan {
+	width: 100%;
+	height: 533px;
+	background: url(../images/sights-plan-bg.png) no-repeat center center;
+	background-size: cover;
+	margin-top: -12%;
+	background-attachment: fixed;
+}
+
+.dream100 {
+	margin-top: 50px;
+	margin-bottom:30px;
+	width: 208px;
+	height: 71px;
+	background: url(../images/dream100.png);
+}
+
+.commenbox1, .commenbox2{
+	width: 100%;
+	height: 353px;
+	
+}
+
+.commenbox1 p, .commenbox2 p {
+	display: block;
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	-webkit-transform: translateY(30%);-moz-transform: translateY(30%);-ms-transform: translateY(30%);transform: translateY(30%);
+	color: #fff;
+}
+
+.commenbox1 strong,.commenbox2 strong {
+	font-size: 24px;
+}
+
+.commenbox1 {
+	background-color: #dcdcdc;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.commenbox1 a {
+	width: 80px;
+	height: 60px;
+	background-color: #e8472a;
+	display: flex;justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	position: absolute;
+}
+
+.commenbox2 {
+	background-color: #292929;
+}
+
+.line {
+	display: block;
+	width: 84px;
+	height: 2px;
+	border:2px solid #fff;
+}
+
+.sights-title,.sight-mapping {
+	width: 100%;
+}
+
+.sightslide {
+	overflow: hidden;
+	display: flex;
+	align-items: flex-end;
+	height: 518px;
+	margin-top: -5%;
+}
+
+.hidepart{
+	width: 3000px;
+	height: 300px;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+
+.hidepart li {
+	width: 254px;
+	height: 254px;
+	-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;
+	-webkit-transform: scale(.9);-moz-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);
+}
+
+.hidepart li img {
+	width: 100%;
+	height: 100%;
+}
+
+.bigger {
+	width: 508px;
+	height: 508px;
+}
+
+.shiftbtn-l,.shiftbtn-r {
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+	font-size: 38px;
+}
+
+
+.shiftbtn-r {
+	left: 60px;
+	color: #fff;
+}
+
+
+/*精彩校园活动*/
+#container {
+			width: 860px;
+			height: 480px;
+			position: relative;
+			margin: 0 auto;
+			overflow: hidden;
+			margin-top: 3%;
+			padding-top: 36px;
+			max-width: 100%;
+		}
+
+		.pic-list {
+			position: relative;
+			width: 4000px;
+			height: 300px;
+			left: 0;
+		}
+
+		.pic-list li {
+			/*display: flex;
+			justify-content: space-around;
+			align-items: center;*/
+			float: left;
+			width: 286px;
+			height: 300px;
+		}
+
+		.thumbnail {
+		    background-color: #fff0;
+		    border: 0px solid #ddd;
+		}
+
+		.thumbnail .caption {
+		    text-align: center;
+		}
+
+		.button {
+			width: 72px;
+			height: 82px;
+			color: #fff;
+			position: absolute;
+			top: 60px;
+			font-size: 50px;
+			font-family: "宋体";
+			text-align: center;
+			line-height: 70px;
+			cursor: pointer;
+			-webkit-transition: all 0.2s;-moz-transition: all 0.2s;transition: all 0.2s;
+		}
+		
+		.button:hover {		
+			 -webkit-transform: scale(1.2);-moz-transform: scale(1.2);-ms-transform: scale(1.2);transform: scale(1.2);
+		}
+
+		.btnbox {
+			width: 327px;
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border: 40px solid #c8320a;
+			position: absolute;
+			top: 0;
+			margin-left: 265px;
+			/*padding-top: 4%;*/
+		}
+
+		.but-l {
+			width: 60px;
+			height: 60px;
+			background-color: #fff;		
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			margin-left: -50px;
+			cursor: pointer;	
+		}
+		.but-r {		
+			width: 60px;
+			height: 60px;
+			background-color: #fff;		
+			right:0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			margin-right: -50px;
+			cursor: pointer;
+		}
+
+.containerbox{
+	width: 580px;
+    height: 292px;
+	background: url(../images/sights-a-w-bg.png) no-repeat center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	padding-top: 10%;
+	margin-bottom: 5%;
+	overflow: hidden;
+}
+
+.containerbox li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	height: 36px;
+	
+	font-size: 20px;
+	margin-right: -23%;
+}
+
+.containerbox li a {
+	color:#fff;
+}
+
+.containerbox li a:hover {
+	color: #969696;
+}
+
+.bar {
+	width: 60px;
+	height: 579px;
+	border-radius:0 0 5px 5px;
+	background-color: #fe4040;
+}
+
+.wish1 .media {
+	margin-top: 15%;
+	text-align: right;
+	}
+
+.wish3 .media {
+	margin-top: 3%;
+}
+
+.wish2 {
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+}
+
+.lines {
+	display: none;
+	width: 80px;
+    position: absolute;
+    right: -35px;
+    z-index: -1;
+	height: 4px;
+	border: 4px solid #e63a3b;
+}
+
+.line2 {
+	display: none;
+	width: 100px;
+    position: absolute;
+    left: -55px;
+    z-index: -1;
+	height: 4px;
+	border: 4px solid #e63a3b;
+}
+
+#news .title {
+	float: right;height: 140px;width: 96%;
+}
+
+#foot {
+	padding:4% 0 1% 0;
+	background-color: #292929;
+}
+
+#foot p {
+	color: #fff;
+}
+
+#back {
+	width: 45px;
+	height: 400px;
+	font-size: 38px;
+	color: #c7523e;
+	position: fixed;
+	right: 3%;
+	bottom: 5%;
+	cursor: pointer;
+}
+
+.nav-list .circle2 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: block;
+	border: 5px solid #e8472a;
+	margin:0 auto;
+	transform: translateY(40%);
+}
+
+.nav-list .circle1 {
+	display:block; 
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	
+}
+
+#back>span {
+	width: 24px;
+	margin:0 auto;
+}
+
+#back .nav-list:hover .circle1 {
+	border: 2px solid #e8472a;
+}
+
+#back .nav-list:hover .circle2 {
+	background-color:#e8472a; 
+	/*transform: scale(1.2);*/
+}
+
+.commenbox1 img {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.bar {display: none;}
+}
+
+
+/*媒体查询*/
+@media screen and (max-width:500px) {
+	html,body {
+		overflow-x: hidden;
+	}
+
+	.containerbox li { 
+	    font-size: 16px;
+	}
+
+	.plan {
+	    height: 171px;
+	     background-attachment: scroll; 
+	}
+
+	.sight-mapping {
+	    width: 70%;
+	    height: 300p;
+	    margin-left: 17%;
+	}
+
+	#banner,#views,#ninth,#dream100,#news,#sight {
+		background-attachment: scroll;
+	}
+
+	.logo {
+	    width: 102px;
+	    height: 41px;
+	}
+
+	.time {
+	    height: 33px;
+	}
+
+	.story,.full-pic,.schoolmate {
+		height: 184px;
+
+	}
+
+	.review img,.schoolmate img {
+		width: 90%;
+		height: auto;
+	}
+
+	.story a {
+		height: 100%;
+		opacity: 1;
+		background-color: #db7d636e;
+	}
+
+	.containerbox {
+		width: 233px;
+    	height: 126px;
+	}
+	.containerbox a {
+		-webkit-transform: scale(.6);-moz-transform: scale(.6);-ms-transform: scale(.6);transform: scale(.6);
+	}
+
+	.mapping {
+	    width: 525px;
+	    height: 365px;
+	}
+	#container {
+		width: 306px;
+	}
+	.btnbox {
+		margin-left: 0;
+    	width: 306px;
+	}
+
+	.lines,.line2 {
+		display: block;
+		position: static;
+	}
+	.wish2 {
+    width: 125px;
+    height: 125px;
+	}
+	.bar {
+		height: 383px;
+	}
+
+	#news .title {
+	    height: 83px;
+	}
+	.shiftbtn-l {
+	    left: 0;
+	}
+	.hidepart li {
+		max-width: 300px;
+		max-height: 300px;
+	}
+	.sightslide {
+		margin-top: 0;
+		height: 300px;
+	}
+
+	.containerbox li {
+		height: 24px;
+		width: 94%;
+	}
+
+	.containerbox li span {
+		font-size: 13px;
+	}
+
+	#back {
+	-webkit-transform: scale(.7);-moz-transform: scale(.7);-ms-transform: scale(.7);transform: scale(.7);
+}
+
+}
+
+/*//==============*/
